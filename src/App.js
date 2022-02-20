@@ -25,9 +25,8 @@ function App() {
 
   return (
     <div className="container">
-      <p id="q">გვეშველება რამე?</p>
       <Answer loading={loading} n={n} />
-      <Button btnClick={btnClick} n={n} loading={loading} />
+      <Button btnClick={btnClick} n={n} />
     </div>
   );
 }
