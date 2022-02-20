@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 import Button from "./components/Button";
-import Answer from "./components/Answer";
+import Text from "./components/Text";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -25,7 +25,7 @@ function App() {
 
   return (
     <div className="container">
-      <Answer loading={loading} n={n} />
+      <Text loading={loading} n={n} />
       <Button btnClick={btnClick} n={n} />
     </div>
   );
