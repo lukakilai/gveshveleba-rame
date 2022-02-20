@@ -24,6 +24,7 @@ body {
 }
 
 #root {
+  height: 45%;
   width: 100%;
   display: grid;
   place-items: center;
@@ -31,9 +32,11 @@ body {
 }
 
 .container {
+  height: 100%;
   padding: 40px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
   gap: 30px;
   text-align: center;
